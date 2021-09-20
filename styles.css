@@ -1,0 +1,150 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Urbanist', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    color: rgb(39, 22, 17);
+    margin: 0px;
+}
+
+.wrapper{
+    margin: 0px auto;
+    max-width: 1000px;  
+    padding: 0px;
+    box-shadow: 13px 6px 16px rgb(109, 109, 109);
+}
+
+/* .shadow{
+    box-shadow: -13px 6px 16px rgb(109, 109, 109);
+
+} */
+
+.header-box{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+header{
+    background: rgb(170, 123, 123);
+    margin: 0px;
+}
+
+h1{
+    margin: 0px;
+    padding: 5% 25%;
+}
+
+#layer1, #layer2 {
+    position: relative; 
+} 
+
+#layer1{
+    font-size: 100%;
+    font-weight: bold;
+    
+}
+   
+#layer2{
+    top: 5px; 
+    left: 1px; 
+    color: #ffe0e0; 
+    font-size: 150%;;  
+}
+
+#layer1 { z-index: 1; }
+#layer2 { z-index: 2; }
+
+
+.top-menu{
+    background: rgb(121, 70, 58);
+    margin: 0px;
+    padding: 20px 5px;
+}
+
+.top-menu-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+}
+
+li:hover{
+    color: rgb(219, 179, 179); 
+}
+
+a{
+    text-decoration: none;
+    color: rgb(39, 22, 17);
+}
+
+a:hover{
+    color: rgb(219, 179, 179);
+}
+
+.header-img{
+    background: rgb(228, 198, 186);}
+
+.img{
+    width: 100px;
+    height: 100px;
+    padding-top: 20%;
+}
+
+/* main start */
+
+.main{
+    margin: 0px;
+    background: rgb(184, 131, 110);
+}
+
+.navigation{
+    background: rgb(219, 179, 179);
+    padding: 20px 10px;
+    margin: 0px;
+}
+
+.main-menu-items:hover{
+    background: rgb(17, 17, 17);
+}
+
+.text-box{
+    margin: 0px;
+    padding: 20% 10%;
+}
+
+p{
+    margin: 0px;
+}
+
+/* main end */
+
+.footer{
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    background: rgb(121, 70, 58);
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 3% 10%;
+}
+
+.e-mail{
+    font-size: 80%;
+}
+
+.footer-p{
+    font-size: 80%;
+}
+
+.footer-p:hover{
+    color: rgb(219, 179, 179);
+}
